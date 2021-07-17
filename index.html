@@ -15,11 +15,48 @@
     </header>
     <section>
         <h3>Calcula el area y perimetro de un cuadrado</h3>
-        <form action="">
+        <form >
             <label for="input_cuadrado">Escribe cuanto mide cada lado de tu cuadrado: </label>
             <input type="number" name="lado_cuadrado" id="input_cuadrado"/>
             <button type="button" onclick="cuadradoCalcularPerimetro()">Calular perímetro</button>
             <button type="button" onclick="cuadradoCalcularArea()">Calular área</button>
+        </form>
+    </section>
+    <section>
+        <h3>Calcula el area y perimetro de un triángulo</h3>
+        <form >
+            <h4>Lados del triangulo</h4>
+            <label> Escribe cuanto mide cada lado de tu triángulo: </label>
+            <input type="number" name="lado_1_trinagulo" id="input_lado_1_trinagulo"/>
+            <input type="number" name="lado_2_trinagulo" id="input_lado_2_trinagulo"/>
+            <input type="number" name="lado_3_trinagulo" id="input_lado_3_trinagulo"/>
+            <button type="button" onclick="trianguloPerimetro()">Calular perímetro</button>
+            <h4>Base y altura</h4>
+            <label> Escribe cuanto mide la base y la altura de tu triángulo: </label>
+            <input type="number" name="base_trinagulo" id="input_base_trinagulo"/>
+            <input type="number" name="alto_trinagulo" id="input_alto_trinagulo"/>
+
+            <button type="button" onclick="trianguloArea()">Calular área</button>
+        </form>
+
+    </section>
+    <section>
+        <h3>Calcula el area y perimetro de un círculo</h3>
+        <form >
+            <label for="input_radio_circulo">Escribe cuanto mide el radio de tu círculo: </label>
+            <input type="number" name="radio_circulo" id="input_radio_circulo"/>
+            <button type="button" onclick="calculaPerimetroCirculo()">Calular perímetro</button>
+            <button type="button" onclick="calculaAreaCirculo()">Calular área</button>
+        </form>
+    </section>
+
+    <section>
+        <form >
+            <h2>Calcula la altra de un trangulo isósceles</h2>
+            <input type="number" name="lado_1_trinagulo_isosceles" id="input_lado_1_trinagulo_isosceles" value="3"/>
+            <input type="number" name="lado_2_trinagulo_isosceles" id="input_lado_2_trinagulo_isosceles" value="2"/>
+            <input type="number" name="lado_3_trinagulo_isosceles" id="input_lado_3_trinagulo_isosceles" value="3"/>
+            <button type="button" onclick="calcularAlturaTrianguloIsosceles()">Calular altura</button>     
         </form>
     </section>
 </body>
