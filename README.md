@@ -23,7 +23,7 @@ Ejercicio que calcula el precio a pagar despues de alicar un descuento al precio
 
 
 ## Practica
-# con base a una lista de nombres y salarios
+### con base a una lista de nombres y salarios
 - Extrae los salaraios
 - Ordena la lista de forma ascendente
 - Obtiene la mediana de salarios
